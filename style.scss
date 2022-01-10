@@ -1,0 +1,172 @@
+.body{
+    
+}
+.navbar{
+    color: #E3E2DF;
+    background-color: #E3E2DF;
+    .container-fluid{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+.main-content{
+    margin: 0px;
+    height: 100vh;
+    
+    background-image: url("Assets/Background.png");
+    background-size: cover;
+    .container-fluid{
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            h1{
+                font-family: 'Red Rose', cursive;
+                font-weight: 700;
+            }
+            button{
+                margin-top: 20px;
+            }
+        }
+        
+    }
+}
+
+.q1-content{
+    margin: 0px;
+    height: 100vh;
+    
+    background-image: url("Assets/Background.png");
+    background-size: cover;
+    .container-fluid{
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            button{
+                margin-top: 20px;
+            }
+            .card{
+                border-radius: 10px;
+                img{
+                    opacity: 0.25;
+                }
+                .ke1{
+                    padding-top: 65px;
+                    .card-title{
+                        font-family: 'Red Rose', cursive;
+                        font-weight: 500;
+                        font-size: 48px;
+                        color: #fff;
+                    }
+                    
+                }
+                .ke2{
+                    padding-left: 200px;
+                    padding-right: 200px;
+                }
+            }
+
+        }
+        
+    }
+}
+
+.result-content{
+    margin: 0px;
+    height: 100vh;
+    
+    background-image: url("Assets/Background.png");
+    background-size: cover;
+    .container-fluid{
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            button{
+                margin-top: 20px;
+            }
+            .card{
+                border-radius: 10px;
+                .card-img{
+                    opacity: 0.35;
+                }
+                .card-img-overlay{
+                    .row{
+                        // margin-top: 25px;
+                        font-family: 'Red Rose', cursive;
+                        font-weight: 600;
+                        color: #fff;
+                        .col-4{
+                            .pic{
+                                margin-top: 40px;
+                                img{
+                                    border-radius: 16px;
+                                }
+                            }
+                            .row{
+                                border-radius: 16px;
+                                padding-top: 10px;
+                                font-family: 'Red Rose', cursive;
+                                font-weight: 600;
+                                color: #fff;
+                                .album-cover{
+                                    background-color: #FFD1DF;
+                                    width: 350px;
+                                    height: 100%;
+                                    border-style: solid;
+                                    border-color: #868686;
+                                    border-width: 5px;
+                                }
+                            }
+                        }
+                        .col-6{
+                            margin-top: 50px;
+                            .row{
+                                .card{
+                                    background-color: #868686;
+                                    padding: 30px;
+                                    
+                                    color: #fff;
+                                    
+                                    .scroll{
+                                        
+                                        width: 500px;
+                                        height: 350px;
+                                        overflow-x: hidden;
+                                        overflow-y: auto;
+                                        text-align:justify;
+                                        .btn{
+                                            margin: 0;
+                                        }
+                                        .table{
+                                            font-family: 'Red Rose', cursive;
+                                            font-weight: 400;
+                                            font-size: 14px;
+                                            color: #fff;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+
+        }
+        
+    }
+}
+
+.footer{
+
+    display: block;
+    position: relative;
+    background-color: #E3E2DF;
+    
+}
